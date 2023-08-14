@@ -2,7 +2,7 @@ const data = {
   products: [
     {
       name: "Nike Slim shirt",
-      slug: "nike-slim-shirt",
+      slug: "swimsuit01",
       category: "Swimsuits",
       image: "/images/1.jpg",
       price: 35,
@@ -14,7 +14,7 @@ const data = {
     },
     {
       name: "Nike Slim shirt",
-      slug: "nike-slim-shirt",
+      slug: "swimsuit02",
       category: "Swimsuits",
       image: "/images/2.jpg",
       price: 35,
@@ -26,7 +26,7 @@ const data = {
     },
     {
       name: "Nike Slim shirt",
-      slug: "nike-slim-shirt",
+      slug: "swimsuit03",
       category: "Swimsuits",
       image: "/images/3.jpg",
       price: 35,
@@ -38,7 +38,7 @@ const data = {
     },
     {
       name: "Nike Slim shirt",
-      slug: "nike-slim-shirt",
+      slug: "swimsuit04",
       category: "Swimsuits",
       image: "/images/4.jpg",
       price: 35,
@@ -50,7 +50,7 @@ const data = {
     },
     {
       name: "Nike Slim shirt",
-      slug: "nike-slim-shirt",
+      slug: "swimsuit05",
       category: "Swimsuits",
       image: "/images/5.jpg",
       price: 35,
@@ -62,7 +62,7 @@ const data = {
     },
     {
       name: "Nike Slim shirt",
-      slug: "nike-slim-shirt",
+      slug: "swimsuit06",
       category: "Swimsuits",
       image: "/images/6.jpg",
       price: 35,
