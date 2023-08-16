@@ -51,10 +51,14 @@ function ProductScreen() {
   }, [slug]);
 
   const { state, dispatch: ctxDispatch } = useContext(Store);
+  const {cart} = state;
   const addToCartHandler = () => {
+    const existItem = cart.cartItems.find((x) => x.id === product._id);
+    const quantity = existItem ? existItem.quantity + 1 : 1;
+
     ctxDispatch({
       type: "CART_ADD_ITEM",
-      payload: { ...product, quantity: 1 },
+      payload: { ...product, quantity },
     });
   };
 
@@ -66,7 +70,7 @@ function ProductScreen() {
     <div>
       <Row>
         <Col md={6}>
-          <img className="img-large product" src={product.image} alt={product.name} />
+          <img className="img-large" src={product.image} alt={product.name} />
         </Col>
         <Col md={3}>
           <ListGroup variant="flush">

@@ -1,6 +1,7 @@
 const data = {
   products: [
     {
+      _id: "1",
       name: "Nike Slim shirt",
       slug: "sketcher01",
       category: "Swimsuits",
@@ -13,6 +14,7 @@ const data = {
       description: "high quality shirt",
     },
     {
+      _id: "2",
       name: "Nike Slim shirt",
       slug: "sketcher02",
       category: "Swimsuits",
@@ -25,6 +27,7 @@ const data = {
       description: "high quality shirt",
     },
     {
+      _id: "3",
       name: "Nike Slim shirt",
       slug: "sketcher03",
       category: "Swimsuits",
@@ -37,6 +40,7 @@ const data = {
       description: "high quality shirt",
     },
     {
+      _id: "4",
       name: "Nike Slim shirt",
       slug: "sketcher04",
       category: "Swimsuits",
@@ -49,6 +53,7 @@ const data = {
       description: "high quality shirt",
     },
     {
+      _id: "5",
       name: "Nike Slim shirt",
       slug: "sketcher05",
       category: "Swimsuits",
@@ -61,6 +66,7 @@ const data = {
       description: "high quality shirt",
     },
     {
+      _id: "6",
       name: "Nike Slim shirt",
       slug: "sketcher06",
       category: "Swimsuits",
@@ -73,6 +79,7 @@ const data = {
       description: "high quality shirt",
     },
     {
+      _id: "7",
       name: "Nike Slim shirt",
       slug: "sketcher07",
       category: "Swimsuits",
@@ -85,6 +92,7 @@ const data = {
       description: "high quality shirt",
     },
     {
+      _id: "8",
       name: "Nike Slim shirt",
       slug: "sketcher08",
       category: "Swimsuits",
@@ -97,6 +105,7 @@ const data = {
       description: "high quality shirt",
     },
     {
+      _id: "9",
       name: "Nike Slim shirt",
       slug: "sketcher09",
       category: "Swimsuits",
