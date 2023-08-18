@@ -61,6 +61,10 @@ main {
   height: 80px;
 }
 
+.small-container {
+  max-width: 600px;
+}
+
 /* .product-info {
   text-align: center;
   padding: 1rem;
