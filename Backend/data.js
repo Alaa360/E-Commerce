@@ -1,7 +1,6 @@
 const data = {
   products: [
     {
-      //_id: "1",
       name: "Sketcher-01",
       slug: "sketcher01",
       category: "Swimsuits",
@@ -14,7 +13,6 @@ const data = {
       description: "high quality shirt",
     },
     {
-      //_id: "2",
       name: "Sketcher-02",
       slug: "sketcher02",
       category: "Swimsuits",
@@ -27,7 +25,6 @@ const data = {
       description: "high quality shirt",
     },
     {
-      //_id: "3",
       name: "Sketcher-03",
       slug: "sketcher03",
       category: "Swimsuits",
@@ -40,7 +37,6 @@ const data = {
       description: "high quality shirt",
     },
     {
-      //_id: "4",
       name: "Sketcher-04",
       slug: "sketcher04",
       category: "Swimsuits",
@@ -53,7 +49,6 @@ const data = {
       description: "high quality shirt",
     },
     {
-      //_id: "5",
       name: "Sketcher-05",
       slug: "sketcher05",
       category: "Swimsuits",
@@ -66,7 +61,6 @@ const data = {
       description: "high quality shirt",
     },
     {
-      //_id: "6",
       name: "Sketcher-06",
       slug: "sketcher06",
       category: "Swimsuits",
@@ -79,7 +73,6 @@ const data = {
       description: "high quality shirt",
     },
     {
-      //_id: "7",
       name: "Sketcher-07",
       slug: "sketcher07",
       category: "Swimsuits",
@@ -92,7 +85,6 @@ const data = {
       description: "high quality shirt",
     },
     {
-      //_id: "8",
       name: "Sketcher-08",
       slug: "sketcher08",
       category: "Swimsuits",
@@ -105,7 +97,6 @@ const data = {
       description: "high quality shirt",
     },
     {
-      //_id: "9",
       name: "Sketcher-09",
       slug: "sketcher09",
       category: "Swimsuits",
@@ -119,6 +110,5 @@ const data = {
     },
   ],
 };
-
 
 module.exports = data;

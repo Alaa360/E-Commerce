@@ -5,7 +5,7 @@ const dotenv = require("dotenv");
 const seedRouter = require("./routes/seedRoutes");
 const productRouter = require("./routes/productRoute");
 
-dotenv.config();
+dotenv.config({path: './.env'});
 
 mongoose
   .connect(process.env.MONGODB_URI)
